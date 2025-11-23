@@ -1,74 +1,50 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ENG. Mohamed Sobhy</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #333;
-    }.header {
-  background: linear-gradient(135deg, #0369a1, #0ea5e9);
-  padding: 60px 20px;
-  text-align: center;
-  color: white;
-}
-
-h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.bio {
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.section {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.contact {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.contact a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #0369a1;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ENG. Mohamed Sobhy | الصفحة الشخصية</title>
+<style>
+ body { font-family: 'Cairo', sans-serif; margin:0; background:#f7f7f7; color:#222; }
+ header { background:#0a3d62; color:#fff; padding:40px 20px; text-align:center; }
+ h1 { margin:0; font-size:2.4rem; }
+ h2 { margin:0; font-size:1.2rem; opacity:0.9; }
+ .container { max-width:900px; margin:auto; padding:30px 20px; }
+ .section { background:#fff; padding:25px; border-radius:15px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+ .tools-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
+ .tool-card { background:#fff; border-radius:12px; padding:20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition:0.2s; }
+ .tool-card:hover { transform:translateY(-5px); box-shadow:0 4px 12px rgba(0,0,0,0.15); }
+ a.tool-link { text-decoration:none; font-weight:bold; color:#0a3d62; font-size:1.1rem; }
+ footer { text-align:center; padding:20px; background:#0a3d62; color:#fff; margin-top:30px; }
+</style>
 </head>
-<body>  <div class="header">
-    <h1>ENG. Mohamed Sobhy</h1>
-    <div class="bio">Agriculture Engineer & Web Development</div>
-  </div>  <div class="section">
-    <h2>About Me</h2>
-    <p>
-      I am an Agriculture Engineer specializing in citrus production, plant protection,
-      and integrated pest management. I am also passionate about web development
-      and building useful tools that help engineers and farmers.
-    </p>
-  </div>  <div class="section contact">
-    <h2>Contact</h2>
-    <a href="https://www.linkedin.com/in/agro-mohamed-soby" target="_blank">LinkedIn</a>
-    <a href="mailto:Msobhy@engineer.com">Email</a>
-  </div></body>
+<body>
+<header>
+ <h1>ENG. Mohamed Sobhy</h1>
+ <h2>Agriculture Engineer & Web Developer</h2>
+ <p style="margin-top:10px; font-size:1rem;">LinkedIn: <a href="https://www.linkedin.com/in/agro-mohamed-soby" style="color:#ffd700;">اضغط هنا</a></p>
+ <p>Email: <span style="color:#ffd700;">Msobhy@engineer.com</span></p>
+</header><div class="container">
+ <div class="section">
+   <h2 style="margin-bottom:15px;">نبذة عني</h2>
+   <p>مهندس زراعي متخصص في الموالح وعلوم البساتين، ولدي شغف كبير بتطوير أدوات ويب تساعد المهندسين الزراعيين في الحسابات والمعدلات والمكافحة المتكاملة. أعمل على إنشاء أدوات عملية ومفيدة مبنية على خبرتي في الحقول والعمل المكتبي.</p>
+ </div> <div class="section">
+   <h2 style="margin-bottom:15px;">🛠️ أدواتي</h2>
+   <div class="tools-grid">
+     <div class="tool-card">
+       <a class="tool-link" href="https://hamo-2003.github.io/WA-Tool/">مولد روابط الواتساب</a>
+     </div>
+     <div class="tool-card">
+       <a class="tool-link" href="#">حاسبة وحدات السماد (قريبًا)</a>
+     </div>
+     <div class="tool-card">
+       <a class="tool-link" href="#">أداة حساب المحاليل المغذية (قريبًا)</a>
+     </div>
+     <div class="tool-card">
+       <a class="tool-link" href="#">أداة حساب معدلات الرش (قريبًا)</a>
+     </div>
+   </div>
+ </div>
+</div><footer>
+ ⚡ Designed & Developed by ENG. Mohamed Sobhy ⚡
+</footer></body>
 </html>
