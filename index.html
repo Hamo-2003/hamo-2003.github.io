@@ -1,50 +1,70 @@
-<!DOCTYPE html><html lang="ar" dir="rtl">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ENG. Mohamed Sobhy | الصفحة الشخصية</title>
-<style>
- body { font-family: 'Cairo', sans-serif; margin:0; background:#f7f7f7; color:#222; }
- header { background:#0a3d62; color:#fff; padding:40px 20px; text-align:center; }
- h1 { margin:0; font-size:2.4rem; }
- h2 { margin:0; font-size:1.2rem; opacity:0.9; }
- .container { max-width:900px; margin:auto; padding:30px 20px; }
- .section { background:#fff; padding:25px; border-radius:15px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
- .tools-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
- .tool-card { background:#fff; border-radius:12px; padding:20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition:0.2s; }
- .tool-card:hover { transform:translateY(-5px); box-shadow:0 4px 12px rgba(0,0,0,0.15); }
- a.tool-link { text-decoration:none; font-weight:bold; color:#0a3d62; font-size:1.1rem; }
- footer { text-align:center; padding:20px; background:#0a3d62; color:#fff; margin-top:30px; }
-</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>م. محمد صبحي | الصفحة الشخصية</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="الصفحة الشخصية للمهندس الزراعي ومطور الويب محمد صبحي، متخصص في تطوير أدوات ويب للمهندسين الزراعيين.">
+    <meta name="keywords" content="مهندس زراعي, مطور ويب, أدوات زراعية, حسابات زراعية, محمد صبحي">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
- <h1>ENG. Mohamed Sobhy</h1>
- <h2>Agriculture Engineer & Web Developer</h2>
- <p style="margin-top:10px; font-size:1rem;">LinkedIn: <a href="https://www.linkedin.com/in/agro-mohamed-soby" style="color:#ffd700;">here</a></p>
- <p>Email: <span style="color:#ffd700;">Msobhy@engineer.com</span></p>
-</header><div class="container">
- <div class="section">
-   <h2 style="margin-bottom:15px;">نبذة عني</h2>
-   <p>مهندس زراعي لدي شغف كبير بتطوير أدوات ويب تساعد المهندسين الزراعيين في الحسابات والمعدلات والمكافحة المتكاملة. أعمل على إنشاء أدوات عملية ومفيدة مبنية على خبرتي في الحقول والعمل المكتبي.</p>
- </div> <div class="section">
-   <h2 style="margin-bottom:15px;">🛠️ أدواتي</h2>
-   <div class="tools-grid">
-     <div class="tool-card">
-       <a class="tool-link" href="https://hamo-2003.github.io/WA-Tool/">مولد روابط الواتساب</a>
-     </div>
-     <div class="tool-card">
-       <a class="tool-link" href="https://hamo-2003.github.io/Fertilizer-Units-Calculator-EG/">حاسبة وحدات السماد (تحت الاختبار)</a>
-     </div>
-     <div class="tool-card">
-       <a class="tool-link" href="#">أداة حساب المحاليل المغذية (قريبًا)</a>
-     </div>
-     <div class="tool-card">
-       <a class="tool-link" href="#">أداة حساب معدلات الرش (قريبًا)</a>
-     </div>
-   </div>
- </div>
-</div><footer>
- ⚡ Designed & Developed by ENG. Mohamed Sobhy ⚡
-</footer></body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1>م. محمد صبحي</h1>
+            <h2>مهندس زراعي ومطور ويب</h2>
+            <div class="contact-info">
+                <p>
+                    <a href="https://www.linkedin.com/in/agro-mohamed-soby" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                </p>
+                <p>
+                    <a href="mailto:Msobhy@engineer.com">Msobhy@engineer.com</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="card">
+                <h3 class="section-title">نبذة عني</h3>
+                <p>مهندس زراعي لدي شغف كبير بتطوير أدوات ويب تساعد المهندسين الزراعيين في الحسابات والمعدلات والمكافحة المتكاملة. أعمل على إنشاء أدوات عملية ومفيدة مبنية على خبرتي في الحقول والعمل المكتبي.</p>
+            </section>
+
+            <section class="card">
+                <h3 class="section-title">🛠️ أدواتي</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <a class="tool-link" href="https://hamo-2003.github.io/WA-Tool/" target="_blank" rel="noopener noreferrer">مولد روابط الواتساب</a>
+                    </div>
+                    <div class="tool-card">
+                        <a class="tool-link" href="https://hamo-2003.github.io/Fertilizer-Units-Calculator-EG/" target="_blank" rel="noopener noreferrer">حاسبة وحدات السماد <span class="status-badge beta">تحت الاختبار</span></a>
+                    </div>
+                    <div class="tool-card disabled">
+                        <span class="tool-link">أداة حساب المحاليل المغذية <span class="status-badge soon">قريبًا</span></span>
+                    </div>
+                    <div class="tool-card disabled">
+                        <span class="tool-link">أداة حساب معدلات الرش <span class="status-badge soon">قريبًا</span></span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>⚡ Designed & Developed by ENG. Mohamed Sobhy ⚡</p>
+    </footer>
+
+</body>
 </html>
