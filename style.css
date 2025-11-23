@@ -1,0 +1,146 @@
+/* --- General Styles --- */
+:root {
+    --primary-color: #0a3d62;
+    --secondary-color: #ffd700;
+    --background-color: #f4f7f9;
+    --text-color: #333;
+    --card-bg-color: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+    --font-family: 'Cairo', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* --- Header --- */
+.main-header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.main-header h2 {
+    margin: 5px 0 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.contact-info a {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* --- Main Content & Cards --- */
+.card {
+    background-color: var(--card-bg-color);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px var(--shadow-color);
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+/* --- Tools Section --- */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.tool-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.tool-link {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    display: block;
+}
+
+.tool-card.disabled {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.tool-card.disabled .tool-link {
+    color: #888;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-right: 5px; /* In Arabic, margin-right is used for spacing before */
+    color: #fff;
+}
+
+.status-badge.beta {
+    background-color: #e67e22; /* Orange */
+}
+
+.status-badge.soon {
+    background-color: #3498db; /* Blue */
+}
+
+/* --- Footer --- */
+.main-footer {
+    text-align: center;
+    padding: 25px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-top: 40px;
+}
