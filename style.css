@@ -144,3 +144,10 @@ a:hover {
     color: #fff;
     margin-top: 40px;
 }
+
+/* --- Icon Styles (New) --- */
+.contact-info a i {
+    margin-left: 8px; /* For RTL, this adds space between text and icon */
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
